@@ -1,0 +1,113 @@
+/* Fuente y estilos base */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #000000;
+  color: #323232;
+  margin: 20px;
+}
+
+/* Contenedor principal */
+.publicacion {
+  max-width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  background: #fafafa;
+  margin: 0 auto;
+}
+
+/* Header con  el usuario y opciones */
+.publicacion-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 15px;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Informacion del  usuario: icono y texto */
+.informacion-usuario {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Icono de foto de perfil */
+.profile-icon {
+  font-size: 32px;
+  color: #000000; /* color de HTML5 el icono */
+}
+
+/* Usuario y descripcion dentro del header */
+.usuario {
+  font-weight: bold;
+  margin: 0;
+  font-size: 1.1em;
+}
+
+.descripcion {
+  font-size: 0.9em;
+  color: #777;
+  margin: 0;
+}
+
+/* Opciones (los tres puntitos) */
+.opciones i {
+  font-size: 20px;
+  color: #555;
+  cursor: pointer;
+}
+
+/* Contenedor de imagen */
+.post-imagen-contenedor {
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-imagen {
+  width: 100%;
+  display: block;
+}
+
+/* Acciones debajo de la imagen */
+.post-acciones {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  background: #fff;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.post-acciones .izquierda i,
+.post-acciones .derecha i { /* He tenido que dividirlo en izquierda o derecha, si no se ponian de seguido los iconos */
+  font-size: 24px;
+  color: #444;
+  margin-right: 15px;
+}
+
+.post-acciones .derecha i {
+  margin-right: 0;
+}
+
+/* Likes */
+.likes {
+  padding: 10px 15px;
+  font-size: 0.95em;
+  background: #fff;
+  margin: 0;
+}
+
+/* Descripción del post */
+.descripcion-foto {
+  padding: 10px 15px 15px 15px;
+  font-size: 0.95em;
+  line-height: 1.4;
+  background: #fff;
+  margin: 0;
+}
+
